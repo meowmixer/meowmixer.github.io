@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>{{site.name}} - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap -->
@@ -36,6 +36,12 @@
     </div>
 
     <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">{{ site.name }}</h1>
+        <p class="lead blog-description">A cat&#8217;s thoughts on all things...</p>
+      </div>
+
       <div class="row">
 
         <div class="col-sm-8 blog-main">
@@ -45,8 +51,8 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
             <div class="circular"></div>
-            <h4>My Interests</h4>
-            <p>Gardening, Photography, Books, Travel, Cooking, Twitter, Politics, Medicine, Alternative Health.</p>
+            <h4>About</h4>
+            <p>Gardening, Photography, Books, Travel, Cooking, Twitter, Politics, Medicine, Alternative Health, and of course, Cats!</p>
           </div>
         </div><!-- /.blog-sidebar -->
 
