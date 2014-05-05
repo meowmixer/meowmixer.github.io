@@ -1,11 +1,12 @@
 meowmixer.github.io
 ===================
 
-A cat's blog
+Source code for [The Cat who Blogs](http://thecatwhoblogs.com/)
 
 ## Setup
 * Install [jekyll](http://jekyllrb.com/)
 * Install [jekyll-tools](https://github.com/jasonrhodes/jekyll-tools)
+
   ```bash
   sudo npm -g install jekyll-tools
   ```
@@ -16,6 +17,7 @@ A cat's blog
 * ```jekyll serve --watch```
 * Make changes, eg: add posts, modify css, add images, etc.
 * When it looks good, run:
+
   ```bash
   git add .
   git commit -m "descriptive commit message"
